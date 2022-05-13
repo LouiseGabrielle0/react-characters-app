@@ -45,7 +45,7 @@ function App() {
       
       <Routes>
       <Route path="/" element={createListOfCharacters()}/>
-      <Route path="/characters/:characterId" element={<CharacterDetails/> } 
+      <Route path="/characters/:characterId" element={<CharacterDetails details={characters}/>}
       /> 
       </Routes>
    
